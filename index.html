@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Hight Vending Services</title>
+        <meta name="description" content="Reliable vending machines for your customers, employees, and visitors." />
+        <meta name="keywords" content="Hight Vending, Vending Machines" />
+        <meta name="author" content="arthvadrr"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/png" href="src/inc/img/favicon.png"/>
+        <link rel="stylesheet" href="build/styles.min.css" />
+        <script defer src="build/index.min.js"></script>
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    </head>
+    <body>
+        <header>
+            <div class="header-inner">
+                <div class="header-content">
+                    <h1>Hight Vending Services</h1>
+                    <p class="large-text">Everyone needs vending machines.</p>
+                    <p>Reliable vending machines for your customers, employees, visitors, and you. <strong>100% free</strong>.</p>
+                    <a class="cta-link" href="#">Get Yours</a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="large-service-area">
+                <div class="flex-container">
+                    <div class="col"></div>
+                    <div class="col">
+                        <h2>Large Service Area</h2>
+                        <p>Servicing over 1500 square miles of the Greater Kansas City Area.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="how-it-works">
+                <div class="flex-container">
+                    <div class="col">
+                        <h2>How it works.</h2>
+                        <p>Contact us below for a free consultation and to discuss your business or location, foot traffic, and product selection. If you want to move forward, we will come out and assess your location. During assessment, we will look for outlets, measure doorways, and map out a route for delivery.</p>
+                        <p>Afterwards, we will bring the machine to your location, install it, and fill it with your choice of products. We monitor our machines remotely so you, your employees and your customers can enjoy convenient vending without having to worry about contacting us when it needs to be re-stocked.</p>
+                    </div>
+                    <div class="col">
+                    </div>
+                </div>
+            </section>
+            <section class="contact-form">
+                <form
+                    action="https://formspree.io/f/xgebrddg"
+                    method="POST"
+                >
+                <ul>
+                    <li>
+                        <label for="name">Name</label><br>
+                        <input type="text" name="name" id="name" required>
+                    </li>
+                    <li>
+                        <label for="email">Email</label><br>
+                        <input type="email" name="email" id="email" required>
+                    </li>
+                    <li>
+                        <label for="phone">Phone</label><br>
+                        <input type="tel" name="phone" id="phone" required>
+                    </li>
+                    <li>
+                        <label for="business">Business name</label><br>
+                        <input type="text" name="business" id="business" required>
+                    </li>
+                    <li>
+                        <label for="employees">Number of employees</label><br>
+                        <input type="number" name="employees" id="employees" min="1" max="10000" required>
+                    </li>
+                    <li>
+                        <label for="employees">Number of employees</label><br>
+                        <input type="number" name="employees" id="employees" min="1" max="10000" required>
+                    </li>
+                    <li>
+                        <label for="message">Message</label><br>
+                        <textarea type="number" name="message" id="message" rows="4" cols="50" aria-required="true" required></textarea>
+                    </li>
+                </ul>
+                <div class="g-recaptcha" data-sitekey="6LeDTrolAAAAAPeAf38xsaAL7QSXeOlcpuWmTWT7"></div>
+                <!-- your other form fields go here -->
+                <button type="submit">Send</button>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+{
+    "name": "hight-vending",
+    "version": "1.0.0",
+    "description": "Hight Vending Homepage",
+    "author": "arthvadrr",
+    "license": "GPL-2.0-or-later",
+    "type": "module",
+    "scripts": {
+        "build": "rollup -c",
+        "start": "rollup -c -w"
+    },
+    "devDependencies": {
+        "@rollup/plugin-babel": "^6.0.3",
+        "@rollup/plugin-terser": "^0.2.1",
+        "postcss-flexbugs-fixes": "^5.0.2",
+        "postcss-preset-env": "^7.8.3",
+        "rollup": "^3.8.1",
+        "rollup-plugin-postcss": "^4.0.2",
+        "sass": "^1.57.1"
+    }
+}
