@@ -1,1 +1,1 @@
-a,button,form,h1,h2,h3,p,section{font-family:Poppins,sans-serif}
+body,html{margin:0;padding:0}*{box-sizing:border-box}a,button,form,h1,h2,h3,p,section{display:block;font-family:Poppins,sans-serif}.flex-container{display:flex}.flex-container .col-50{width:50%}.flex-container .col-25{width:25%}.flex-container .col-75{width:75%}header{background-image:url(../src/img/vending-machine.jpg);background-size:cover;overflow:hidden}
