@@ -16,7 +16,7 @@ const addPlugins = () => [
 // rollup.config.js
 export default [
     {
-        input: './src/sass/index.scss',
+        input: './src/scss/index.scss',
         output: {
             name: 'MainStyles',
             file: './build/styles.min.css',
