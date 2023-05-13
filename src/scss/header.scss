@@ -1,5 +1,6 @@
 header {
     background-image: url('../src/img/vending-machine.jpg');
+    background-attachment: fixed;
     background-size: cover;
     overflow: hidden;
 
@@ -7,7 +8,6 @@ header {
         position: relative;
         color: #fff;
         z-index: 1;
-        padding: 10rem 0;
 
         &:before {
             content: '';
@@ -18,6 +18,51 @@ header {
             top: 0;
             left: 0;
             z-index: -1;
+
+            @media screen and (max-width: 800px) {
+                background: linear-gradient(rgba(24, 33, 49, 0.87) 45%,rgb(25,32,39) 100%);
+            }
+        }
+    }
+
+    .col {
+        min-height: 500px;
+    }
+
+    h1 {
+        font-size: 2.4rem;
+        font-weight: 400;
+    }
+
+    p.large-text {
+        font-size: 6.4rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
+
+    a.cta-link {
+        display: inline-block;
+        background-color: #eff168;
+        border: 1px solid #b18733;
+        border-radius: 0.5rem;
+        padding: 1.5rem 8rem;
+        margin-top: 2rem;
+        margin-bottom: 10rem;
+        text-decoration: none;
+        color: #000;
+        font-size: 2rem;
+        font-style: italic;
+        transition: all 200ms ease-in-out;
+
+        &:hover,
+        &:focus {
+            background-color: #fdff95;
+            box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        }
+
+        @media screen and (max-width: 800px) {
+            width: 100%;
+            text-align: center;
         }
     }
 }
