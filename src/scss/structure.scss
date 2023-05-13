@@ -1,7 +1,16 @@
-.flex-container {
+.row {
+    position: relative;
     display: flex;
+    justify-content: center;
+
+    .flex-container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        width: 1000px;
 
         .col-50 {width: 50%;}
         .col-25 {width: 25%;}
         .col-75 {width: 75%;}
+    }
 }
