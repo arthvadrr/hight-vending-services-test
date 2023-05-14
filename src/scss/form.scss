@@ -1,0 +1,46 @@
+.contact-form {
+    background-color: rgb(233, 233, 233);
+    padding: 8rem 0;
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .col {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="number"] {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    button {
+        background-color: #eff168;
+        border: 1px solid #b18733;
+        border-radius: 0.5rem;
+        padding: 1.5rem 8rem;
+        margin-top: 2rem;
+        cursor: pointer;
+        transition: all 200ms ease-in-out;
+        width: 100%;
+
+        &:hover,
+        &:focus {
+            background-color: #fdff95;
+            box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        }
+
+        &:active {
+            box-shadow: none;
+            background-color: #fdff95;
+        }
+    }
+}
